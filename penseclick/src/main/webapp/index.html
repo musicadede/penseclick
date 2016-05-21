@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Photo Stack - Sequence.js Theme</title>
+<link href="css/sequence-theme.photo-stack.css" rel="stylesheet"
+	media="all">
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<style>
+body {
+	margin: 0;
+	padding: 0;
+}
+</style>
+<script>(function(i,s,o,g,r,a,m){
+	i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();
+		a=s.createElement(o),m=s.getElementsByTagName(o)[0];
+		a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})
+		(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-11991680-8', 'auto');
+		ga('send', 'pageview');
+		</script>
+</head>
+<body>
+	<div id="sequence" class="seq">
+		<div class="seq-screen">
+			<ul class="seq-canvas">
+				<li class="seq-in" aria-describedby="step1"><div
+						class="seq-feature">
+						<img data-seq src="images/a.jpg"
+							alt="An army helicopter flying over an english beach with seagulls flying below it">
+					</div></li>
+				<li aria-describedby="step2"><div class="seq-feature">
+						<img data-seq src="images/b.jpg"
+							alt="A black and white photo of a Springer Spaniel dog digging in sand on a beach">
+					</div></li>
+				<li aria-describedby="step3"><div class="seq-feature">
+						<img data-seq src="images/c.jpg"
+							alt="A brick walkway in a harbour leads to a tower. The sea and cliffs appear in the background">
+					</div></li>
+				<li aria-describedby="step4"><div class="seq-feature">
+						<img data-seq src="images/d.jpg"
+							alt="A black and white photo of puffy white clouds over the sea. The sea wall and steps leading to a bridge appear in the lower left">
+					</div></li>
+				<li aria-describedby="step5"><div class="seq-feature">
+						<img data-seq src="images/e.jpg"
+							alt="A small war memorial with distant views over Devonshire fields. Trees appear in the distance and clouds like heavy">
+					</div></li>
+				<li aria-describedby="step6"><div class="seq-feature">
+						<img data-seq src="images/f.jpg"
+							alt="A narrow, leafy path leads through a small woodland as mist creeps through the gaps between trees">
+					</div></li>
+				<li aria-describedby="step7"><div class="seq-feature">
+						<img data-seq src="images/g.jpg"
+							alt="A shot of Lympstone harbour taken from the harbour's brick wall. Rails at the forefront of the photograph curve around the wall leading to a tower in the distance">
+					</div></li>
+				<li aria-describedby="step8"><div class="seq-feature">
+						<img data-seq src="images/h.jpg"
+							alt="A cat sat on a desk in a shop with small products hung on the wall behind">
+					</div></li>
+				<li aria-describedby="step9"><div class="seq-feature">
+						<img data-seq src="images/i.jpg"
+							alt="A picture of a narrow road leading behind old brick houses in an English village">
+					</div></li>
+			</ul>
+			<fieldset id="seq-nav" class="seq-nav" aria-controls="sequence"
+				aria-label="Slider buttons">
+				<button type="button" class="seq-prev seq-fadein"
+					aria-label="Previous">Previous</button>
+				<ul id="seq-caption" class="seq-caption"
+					aria-label="Slider captions">
+					<li id="step1">Adriana</li>
+					<li id="step2">Noiva Carol</li>
+					<li id="step3">Lympstone Harbour Tower</li>
+					<li id="step4">Clouds Over Dawlish</li>
+					<li id="step5">Killerton War Memorial</li>
+					<li id="step6">A Creepy Path</li>
+					<li id="step7">Lympstone Harbour</li>
+					<li id="step8">Scooby the Cat</li>
+					<li id="step9">An English Village</li>
+				</ul>
+				<button type="button" class="seq-next seq-fadein" aria-label="Next"> Next</button>
+			</fieldset>
+		</div>
+	</div>
+	<script src="scripts/hammer.min.js"></script>
+	<script src="scripts/scripts.min.js"></script>
+	<script>var slug = "photo-stack";</script>
+	<script src="demo/demo.js"></script>
+	
+	<div>
+	<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>&quot;Shutter Effect&quot; with Canvas and jQuery | Tutorialzine Demo</title>
+
+<link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+<link rel="stylesheet" type="text/css" href="assets/jquery.shutter/jquery.shutter.css" />
+
+</head>
+<body>
+
+<div id="top"></div>
+
+<div id="page">
+
+
+	<div id="container">
+    	<ul>
+        	<li><img src="assets/img/photos/1.jpg" width="640" height="400" alt="Landscape" /></li>
+            <li><img src="assets/img/photos/2.jpg" width="45%" height="25%" alt="Yacht club" /></li>
+            <li><img src="assets/img/photos/3.jpg" width="640" height="400" alt="Desert" /></li>
+            <li><img src="assets/img/photos/4.jpg" width="640" height="400" alt="Machinery" /></li>
+            <li><img src="assets/img/photos/5.jpg" width="640" height="400" alt="Machinery" /></li>
+            <li><img src="assets/img/photos/6.jpg" width="640" height="400" alt="Machinery" /></li>
+            <li><img src="assets/img/photos/7.jpg" width="640" height="400" alt="Machinery" /></li>
+            <li><img src="assets/img/photos/8.jpg" width="640" height="400" alt="Machinery" /></li>
+            <li><img src="assets/img/photos/9.jpg" width="640" height="400" alt="Machinery" /></li>
+        </ul>
+    </div>
+   <br> 
+   <br> 
+   <br> 
+   <br> 
+	<!--<p class="credit">Fotos: <a href="http://www.flickr.com/photos/zanthia/5429569236/">Hohenschwangau</a>, <a href="http://www.flickr.com/photos/zanthia/5393654169/">Erg Chebbi</a>, <a href="http://www.flickr.com/photos/axelhartmann/5405452502/">1500-in front of</a>, <a href="http://www.flickr.com/photos/gnuckx/5386807102/">Circolo Nautico</a></p>
+
+    <!-- You are free to remove this footer -->
+    <!--
+    <div id="footer">
+        <h2>Portifólio</h2>
+        <a class="tzine" href="http://tutorialzine.com/2011/03/photography-portfolio-shutter-effect/">Read &amp; Download on</a>
+    </div>
+-->
+</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<script src="assets/jquery.shutter/jquery.shutter.js"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
+	
+	
+	</div>
+	
+</body>
+</html>
